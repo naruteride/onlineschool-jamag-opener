@@ -1,0 +1,21 @@
+{
+    "name": "Onlineschool Jamag Opener",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": "off.png",
+        "default_title": "icon"
+    },
+    "background": {
+        "scripts": ["background.js"] 
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://hs.onlineschool.or.kr/kedi/usrs/myclass/classStudy.do*"],
+            "js": ["content-script.js"]
+        }
+    ]
+}

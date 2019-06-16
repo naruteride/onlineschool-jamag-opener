@@ -1,6 +1,6 @@
 {
-    "name": "Onlineschool Jamag Opener",
-    "version": "1.0",
+    "name": "Onlineschool Jamak Opener",
+    "version": "1.1",
     "manifest_version": 2,
     "permissions": [
         "activeTab"
